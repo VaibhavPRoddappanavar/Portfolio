@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+          <!-- profile page -->
+          <div class="book-page page-left" id="test">
+            <div class="profile-page">
+                <img src="nagannaphoto.png" alt="" height="30%
+                ">   <!--Add an image-->
+                <h1>NAGARAJA G S</h1>
+                <h3>Professor and Associate Dean</h3>
+
+                
+                <div class="social-media">
+   <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGS+R+f7ent77/vafPWd1e3e8z/P/zznOc9t0srR1Mr1tQmAsViAyRiCX7iFO7iAB/VYqNdBPxzGDHzOQk/wDaMxEj2wG1vwvRZQGUDc9Bo6YAOO40+NAmsT4AXm4VF1Ti2AXriXVEzF8wZCGFF0dAbtMBxfKvNrAZzDeIzDy4KmPuiGp3WAAuQ+jmBlPYBJuIFlmTwsu3mHASU0NdfbjB2YjkvNL6s72Iel6FkM7kfR7ibszOQY9sU6XXRKMQRdc8sAHuI15mTCKhzI5wA+2mAecT5iVBnAm4L/mMGKTOidc/iIkO3PBgCHsAjdywCe5bAWVhQKKe7FQaxpMIegcz06lgGcT/4nVN30ZG5z8BuAnZOuUM2pomh0GBF5YzC4DGB7DrYv3laAtC+A92A1PvHPw0K6EbvyTOzBe5zG8jKAgblY24qErTX4npZ0Dc1vvzEzZRncn0hraVFbrUULJYShhcmVRdAQg3yVIuiPuwivmlJ5qBqgS/IZ+7CxgWKaP0fxywkY2x8yb4lqgNk4W9C0GNF+bOXtYouP4WsVYMxpCdalssK3Gprd/hxkc604MCit+HrSEa4aXjUxk27m9tc0xeoOwkMi8SquFJL8UNhx1+Jm84sfzCyEfMNGHqdnhUSD+9JoE7/M/5x17bRW7+Av0jpxGTt6Zt0AAAAASUVORK5CYII="/></a>
+   <a href="https://in.linkedin.com/in/nagaraja-g-s-610887191" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1U0rRkEYxvHfQykrsrFSXoqFKFl5KQsfQ76AslA2VvZKSfkG8jFkIUXWkuRtZaVsWCg0NUfTOFHPeLJg6tQ953Rf/3uue2ZOQ4tHo8X66gCDeMXNT8BzwDaWo/AmVkshKWAE55lgP25LIN8BBkqtyi3awVKseAsrJdWH3LomD8cmX5aK1wGm0RGFn3Ec4wl0xfgJJ+jBLMbQjj18KipfwT16o9AVhmJ8iJkYX2A9Cqb5YWuvYSNdeTOAB3TGp87FeexXH5oBVLkBdIdxtCWkYNVCKWAXi1FkDgcJ4AyjpYBwKEMvqhFW0hcnj+guBYSd9pIATjGZzD+s/6oH1wgXXxjpLgrz4PlbIniEqX9AddD+uEV1R7/o3a/89IsqzpPfAXF0UxkpbL/qAAAAAElFTkSuQmCC"/></a>
+      <a href="nagarajags@rvce.edu.in" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvt1T0vREEUxvHfIiKhUItCoZAofQOJSkFCg0RFo0RCpaFQoNBQe+loJDolvoGodCQSX0DhdeTumtzsmrvLdm43OWee/3nOzJlb0uSv1GR9/4Bkh+MWDWMf3TjAKl6SCt8JY1hHO+ZwGUIx4AE9keAVJvGYgLRhE0tR3h3684D3KkJPGMd1DUgfTjBUJf5VfOygGiDkhDatYCcnEsCH6KoBLwwo7z/DNF6xi/lE6+oGBL3bzPVAgcNvCFBAt5KSBFwgVNqbUL3PnI3k8pKALWzgGKM1IOeYwRoW6wVsYznbtICw7sjWz5ngXrYOsV8Bgs4gTjPBCdxEFf8JIOh1Ztc0OIi/0M54kisz9tOgxS1K3Z5CDsIAteRsl88gBcg7ePt8+FrzT8URpiJIPQ5iQBAPN282D0hV2VD8/5eZbNsHnRQ+GcOlqXcAAAAASUVORK5CYII="/></a>
+     <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcFJREFUSEvV1UuoT1EUBvDfHXiFDExNJEVEDLwiQ24yFMoAI0OUMpABSQqZGl0Tr+7g3iRGSmFgpAghJSZIEQnldZbOrd129v+/u3WLXadTZ317fWt9e+3vDJjgNTDB+f0TBMuxASuxhj9FPcZTXMVoLxV6dTAZJ7C3j4y3sQWvu3AlgoUYbp5FlWcUhRysJZiK+5jfseEJvmMeAhfrInbgZy3BaexLwN9wDGfxtv0+qUl4GNHpVvwodZpLtB43E/AnLMPzSqn+guUEF7A9Qe3G0HiTx76c4C5WtAk/YlaWfFozrtf7EB7FjTFMTvAOs9tgjN+6LNkMhGy91gGcLBG8wpw2eAdrx0EQA3KmRHAFm9vgF0zHr4SkS6LoeHGC2dZM1+USQeh3KAHvwrk+kpzC/gQzFy9KBBF8lFyiD1iKlwWSJYizmtnGH2bddLppXPnjScL3TUU7EfKNrfCpPTiSTVqM+KW0mC4vilt6r8OHguhZMyExSWEVU7KurmFT3mnJ7BY00ow01cS7Zt3CID7XEgQuZAip0gPM939FeFf4Uqcf1fzRwos2YjVWtbf/QfuzOY83vVqsIaiRqIj5/wl+A2MwRxkhHnjuAAAAAElFTkSuQmCC"/></a> <!--one more social media-->
+                </div>
+       
+          
+
+
+<p>Dr. Nagaraja G.S is the Associate Dean and Professor at RV College of Engineering.
+   He holds a Ph.D. in Computer Science and Engineering from Dr MGR University, Chennai, India (2011).
+   With over 30 years of teaching, 19 years of research, and 6 years in skill development, he has served as 
+   Lecturer, Associate Professor, and Professor in the Dept of CSE at RVCE, Bangalore.
+</p>
+
+<div class="btn-box">
+    <a href="https://rvce.edu.in/cs-nagarajags" class="btn" target="_blank">RV Profile</a>
+    <a href="#" class="btn contact-me">Contact</a>
+</div>
+</div>
+</div>
+
+
+
+<!-- page 1 and 2 -->
+<div class="book-page page-right turn" id="turn-1"> 
+    <!--Page1-->
+    <div class="page-front">
+        <h1 class="title">EDUCATION :</h1>
+
+        <!-- page 1 (work experience) -->
+        <div class="workeduc-box">
+            <div class="workeduc-content">
+                <span class="year">
+                   <i class="bx bxs-calendar"></i>1987- 1991</span>
+                <h3>Bachelor of Engineering</h3>
+                <p>B.E. in Computer Science and Engineering, Bangalore University, India.
+                </p>
+            </div>
+
+
+            <div class="workeduc-content">
+                <span class="year">
+                   <i class="bx bxs-calendar"></i>1994-1996</span>
+                <h3>Master of Engineering</h3>
+                <p>M.E. Master of Engineering Management from, Mysore University, India.
+                </p>
+            </div>
+<!-- 3rd item -->
+
+            <div class="workeduc-content">
+                <span class="year">
+                   <i class="bx bxs-calendar"></i>2009-2011</span>
+                <h3>Doctor of Philosophy</h3>
+                <p>Ph.D.in Computer Science and Engineering from Dr MGR University, Chennai, India.
+                </p>
+            </div>
+        </div>
+        <span class="number-page">1</span>
+
+
+          
+         
+        <!-- next button -->
+        <span class="nextprev-btn" data-page="turn-1">
+            <i class="bx bx-chevron-right"></i>
+        </span>
+
+    </div>
+                <!-- page 2 (education) -->
+            <div class="page-back">
+
+
+<!-- second page work exp 1st item  code is completely diff lets see in future how it goes -->
+<h1 class="title">EXPERIENCE : </h1>
+ <div class="workeduc-box">
+    <div class="workeduc-content">
+        <span class="year">
+           <i class="bx bxs-calendar"></i>30+ years</span>
+        <h3>Teaching Experience:</h3>
+        <p>Over 30 years of teaching across various roles at RVCE, Bangalore, 
+            including Lecturer, Assistant Professor, Associate Professor, and 
+            Professor in the Dept of CSE.
+        </p>
+    </div>
+
+                <div class="workeduc-content">
+                    <span class="year">
+                       <i class="bx bxs-calendar"></i>19+ years
+                    </span>
+                    <h3>Research Experience:</h3>
+                    <p>Contributed for 19+ years to research initiatives in CSE at RVCE, Bangalore, fostering academic and intellectual growth.
+                    </p>
+                </div>
+    
+                <div class="workeduc-content">
+                    <span class="year">
+                       <i class="bx bxs-calendar"></i>6+ years</span>
+                    <h3>Skill Development Expertise:</h3>
+                    <p>Possesses 6+ years of focused skill development experience, specializing in CCNA for 
+                       undergraduate and postgraduate students. Also served as an instructor for Intel FPGA 
+                       and SoC technologies at RVCE, Bangalore
+                     </p>
+                </div>
+            </div> 
+
+
+
+
+
+            <span class="number-page">2</span>
+
+               <!-- previous button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+                <i class="bx bx-chevron-left"></i>
+            </span>
+    
+        <!-- next button
+        <span class="nextprev-btn" data-page="turn-2">
+            <i class="bx bx-chevron-right"></i>
+        </span> -->
+
+
+         </div>
+        </div>
+
+  <!-- page 3 & 4 -->
+  <div class="book-page page-right turn" id="turn-2">
+
+                <!-- page 3  -->
+                <div class="page-front">
+                    <h1 class="title">SKILL : </h1>
+            
+                    <!-- page 1 (work experience) -->
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year">
+                               <!-- <i class="bx bxs-calendar"></i>1987- 1991</span> -->
+                            <h3  style="color: black;">Programming Expertise:</h3>
+                            <p style="color: black;">Reviewed publications on "Programming in C" and "OOP's with C++" showcasing proficiency in foundational programming languages.
+                            </p>
+                        </div>
+            
+            
+                        <div class="workeduc-content">
+                            <span class="year">
+                               <!-- <i class="bx bxs-calendar"></i>1994-1996</span> -->
+                            <h3  style="color: black;">Networks and Computing: </h3>
+                            <p style="color: black;">Extensive review experience in areas such as Computer Networks, Network Management, 
+                                Routing and Switching, Cloud Computing, Distributed Computing, IoT, and Security.
+                            </p>
+                        </div>
+            <!-- 3rd item -->
+            
+                        <div class="workeduc-content">
+                            <span class="year">
+                               <!-- <i class="bx bxs-calendar"></i>2009-2011</span> -->
+                            <h3 style="color: black;">Advanced Computing Topics:</h3>
+                            <p style="color: black;">Reviewed publications spanning Distributed Systems, Wireless Sensor Networks, 
+                               Parallel Processing, Storage Management, Multimedia Communications, Computer Organization
+                               and Architecture, and Precision Agriculture.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="number-page">3</span>
+            
+            
+                      
+                     
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+            
+                </div>
+                
+
+                <!-- page 4 (my skills) -->
+                <div class="page-back">
+
+
+                    <!-- second page work exp 1st item  code is completely diff lets see in future how it goes -->
+                    <h1 class="title">PROJECTS :</h1>
+                     <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year">
+                               <!-- <i class="bx bxs-calendar"></i>2020-2021</span>
+                            <h3>Web Developer - Company</h3> -->
+                            <p style="color: black;">UGC granted financial support for research project under the <span style="font-weight: bold;">“Category of Major Research 
+                                Project”</span>,2012-2015.
+
+                            </p>
+                        </div>
+                    
+                                    <div class="workeduc-content">
+                                        <span class="year">
+                                            <!-- <i class="bx bxs-calendar"></i>2020-2021</span>
+                                         <h3>Web Developer - Company</h3> -->
+                                         <p style="color: black;">
+                                            <span style="font-weight: bold;">“Solar Ironing Cart”</span> sanctioned by the National Institute of advanced studies IISC, collaboratively with 
+                                            EEE Department for the academic year-2020.
+
+                                         </p>
+                                    </div>
+                        
+                                    <div class="workeduc-content">
+                                        <span class="year">
+                                            <!-- <i class="bx bxs-calendar"></i>2020-2021</span>
+                                         <h3>Web Developer - Company</h3> -->
+                                         <p style="color: black;">Collaborative development project on 
+                                            <span style="font-weight: bold;">“Silkworm Seed production”</span> sanctioned by Central Silk Board-2021. 
+
+             
+                                         </p>
+                                    </div>
+
+                                    <div class="workeduc-content">
+                                        <span class="year">
+                                            <!-- <i class="bx bxs-calendar"></i>2020-2021</span>
+                                         <h3>Web Developer - Company</h3> -->
+                                         <p style="color: black;">Patent research article was published titled 
+                                            <span style="font-weight: bold;">“A system for estimating the inherent parallelism and speedup of sequential programs”</span>
+                                        </p>
+                                    </div>
+                                </div> 
+                    
+                    
+                    
+                    
+                    
+                                <span class="number-page">4</span>
+                    
+                                   <!-- previous button -->
+                                <span class="nextprev-btn back" data-page="turn-2">
+                                    <i class="bx bx-chevron-left"></i>
+                                </span>
+                        
+                            <!-- next button
+                            <span class="nextprev-btn" data-page="turn-2">
+                                <i class="bx bx-chevron-right"></i>
+                            </span> -->
+                    
+                    
+                             </div>
+    </div>
+
+
+
+     <!-- page 5 & 6 -->
+     <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 -->
+                <div class="page-front">
+                    <h1 class="title">Works :</h1>
+               
+                    <div class="services-box">
+                        <div class="services-content">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKFJREFUSEvt1cEJAjEUBNC3dShetQmxBCsR29C2ZMGDWISodSgRFjREXDbZ9bI5Bv5M5v/Jn0rPp+oZ36AEa+ywyFR1xgbHgPOu4IZJJnhTfsAqJngUAg8wd0z/RhAPvlHW5j68+vpLQRugoD5FPBJ8+Kxzi0q4dbTpq4udZzD+g6+r4oJZCY+ixjLepiFw9phnkpywTQVOJm66fNBM7kXBE3F8RBkYd3zFAAAAAElFTkSuQmCC"/>
+                    <h3>Workshop</h3>
+                    <p></p>
+                    <a href="table2.html" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvF1DFIVXEUx/HP20ShQHTQoS0KQQeRBrfAkogWp7bARSmxsUB0KYqGxmoMl4LaGgRxKsLFIQgcxCXBtUURJAy9/7gX/v15t/fufT08cJf/vef7u+d/zvk1dDkaXeY7F4Eg+hiX8RCHnVSZVnABHzCdQzdxHb/qiqQC3zGawD5hBr/riKQCpyWQt5j9HwJH6C0BLeFZVZG0gu2sByMlkDXc7lTgPe42gexgCvudCszjTQL5hhv4WRUevk+v6BL2EtBVhApqRbNNDmN5J6Kt4EktepMKAmcia+ZWBDzOz8IAxDGEl1jHatkPlHnRK9yPkn7gJnbzs0F8Qbi+EE+zRVxuJlIm0JNZxGdci5LCjjzHx/wZS4CvsYC/lvVfbjqQjeZXXKlw/+9wDydFTiu7vpj/bRjTdiNU8qBdgWKUF3ObKLORWPxFbvd/zlpVECeGxj5CWMa+knI2cCt23ioCBbMfc5jEOIbzF2EZw1AcxOJ1BNrtReUrqgSu0uRa4CLpDBORNRkbOkH4AAAAAElFTkSuQmCC"/>
+                    <h3>Int Conference</h3>
+                    <p></p>
+                    <a href="https://rvce.edu.in/sites/default/files/cse_GSN_Publications_Feb2020.pdf" class="btn" target="_blank">Read More</a>
+                        </div>
+                        <div class="services-content">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMVJREFUSEvNlU0KAjEMhb9RbyEILlyL59AL6VLwUHoIT+BCwWv4Q8VKCbYdElOc3fzkfe8lE9rhfHXO+jQFrIAtsDCmOgJr4BB00gRXYGwUj+UnYCYBD+AGjIyQoPPRThM0B0QnMlA0Jd/L56/7UgIXwB0Yvi3XALlRFWfwVwDVDELRoGeLzADtOhRnkCZwB+T+ohy41x6ku+EOcGmR3G4NJDvkCzDRKH6pOQNT6XYJ7IC5ERIOnA2w/0U7ql6anslVN5oPnja2PRkTbLQ3AAAAAElFTkSuQmCC"/>
+                    <h3>Int Journals</h3>
+                    <p></p>
+                    <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=D6oqEhgAAAAJ" class="btn" target="_blank">Read More</a>
+                        </div>
+                        <div class="services-content">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKdJREFUSEvt1MEJwkAQheEvILYgCIIFCNqSqC3kINiIBzuwGAWxAsEuFA+KLgaS3SyCZO7v/TPzhilkriKzvxDQR4kFxhHwMzbYP7UhYId5hPG75IRJFeCKQSLgIX81Hk5wa8G8MaDOIYSNNZogOyBma40m6AAfG/jJmXYZ/GkGUxxj0g014Z+5YIgZDjkAW6xaMK78RT2sscQoAVQJSPD8Lq3z65OgdzOKGxlzYzkHAAAAAElFTkSuQmCC"/>
+                    <h3>Books</h3>
+                    <p></p>
+                    <a href="https://rvce.edu.in/sites/default/files/cse_GSN_Publications_Feb2020.pdf" class="btn" target="_blank">Read More</a>
+                        </div>
+
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- previous button
+                 <span class="nextprev-btn back" data-page="turn-2">
+                     <i class="bx bx-chevron-left"></i>
+                 </span>
+          -->
+             <!-- next button -->
+             <span class="nextprev-btn" data-page="turn-3">
+                 <i class="bx bx-chevron-right"></i>
+             </span>
+     
+
+                </div>
+     
+
+                                <!-- page 6 Gallery1 -->
+                                <div class="page-back">
+                                    <h1 class="title">Gallery:</h1>
+                                    
+                                    <div class="skills-box">
+                
+                                        <div class="skills-content">
+                
+                                            <!-- <h3>Front-end</h3> -->
+                                            <div class="content">
+                    <span> <img src="Picture1 copy.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture2.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture3.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture5.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture9.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture10.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture12.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture13.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture15.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture16.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture17.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture18.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture19.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture21.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture29.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture31.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture33.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture35.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture37.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                    <span> <img src="Picture38.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                                           
+                                            </div>
+                                        </div>
+                
+                                        <!-- <div class="skills-content">
+                
+                                            
+                       <div class="content">
+                      <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                   <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                   <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                  <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                            <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                            <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                            <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                            <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                                               
+                                            </div>
+                                        </div> -->
+                                    </div>
+                
+                                    <span class="number-page">6</span>
+                     <!-- previous button -->
+                     <span class="nextprev-btn back" data-page="turn-3">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                
+                <!-- next button
+                <span class="nextprev-btn" data-page="turn-5">
+                    <i class="bx bx-chevron-right"></i>
+                </span> -->
+                
+                         </div>
+            </div>
+
+                 <!-- page 7 & 8 -->
+     <div class="book-page page-right turn" id="turn-4">
+        <!-- page 7 (Gallery continued) -->
+        <div class="page-front">
+            <h1 class="title">Gallery:</h1>
+            <div class="skills-box">
+
+                <div class="skills-content">
+
+                    <!-- <h3>Front-end</h3> -->
+                    <div class="content">
+                        <span> <img src="Picture39.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture40.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture41.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture43.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture45.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture46.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture47.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture48.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <!-- <span> <img src="Picture49.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span> -->
+                        <!-- <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span>
+                        <span> <img src="Picture1.jpg" alt="" class="'bx bxs-photo-album'" height="100%" width="100%"></span> -->
+                       
+                    </div>
+                </div>
+
+                <!-- <div class="skills-content">
+
+                   
+<div class="content">
+<span> <i class='bx bxs-photo-album'></i>HTML</span>
+<span> <i class='bx bxs-photo-album'></i>HTML</span>
+           <span> <i class='bx bxs-photo-album'></i>HTML</span>
+          <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                    <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                    <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                    <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                    <span> <i class='bx bxs-photo-album'></i>HTML</span>
+                       
+                    </div>
+                </div> -->
+            </div>
+
+            <span class="number-page">7</span>
+<!-- previous button
+<span class="nextprev-btn back" data-page="turn-3">
+<i class="bx bx-chevron-left"></i>
+</span> -->
+
+<!-- next button -->
+<span class="nextprev-btn" data-page="turn-4">
+<i class="bx bx-chevron-right"></i>
+</span>
+
+ </div>
+
+
+
+        <!-- page 8 (contact me) -->
+        <div class="page-back">
+            <h1 class="title">Contact Me!</h1>
+
+            <div class="contact-box">
+                <form action="">
+                    <input type="text" class="field" placeholder="Full Name" required>
+                    <input type="email" class="field" placeholder="Email Address" required>
+                    <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                    <input type="submit" class="btn" value="Send Message">
+                </form>
+            </div>
+
+            <span class="number-page">8</span>
+            <!--prev Button-->
+            <span class="nextprev-btn back" data-page="turn-4">
+                <i class="bx bx-chevron-left"></i>
+            </span>
+
+            <!-- <a href="#test" class="back-profile">
+                <p>Profile</p>
+            </a> -->
+        </div>
+     </div>
+
+             <script src="script.js"></script>
+</div>
+</div>
+            
+          
+
+          
+
+           
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
